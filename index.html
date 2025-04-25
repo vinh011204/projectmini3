@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+ <h2>danh muc san pham </h2>
+ <div id="category__list">
+    <div class="category__item"></div>
+ </div>
+ 
+ <h2>danh sach san pham </h2>
+<div class="search" id="search">
+    <input type="text">
+    <button>Search </button>
+</div>
+<select name=""id="filter">
+    <option value="mac dinh">mac dinh</option>
+    <option value="gia thap den cao"> gia thap den cao</option>
+    <option value="gia cao den thap"> gia cao den thap</option>
+    <option value="gia gia nhieu"> gia gia nhieu</option>
+</select>
+
+ <div id="products__list" >
+    <div class="products__item">
+        <div class="products__image">
+            <img src="" alt="">
+            <div class="producst__percent">
+                10%
+            </div>
+        </div>
+        <div class="producst__content">
+            <h3 class="producst__title"></h3>
+            <div class="producst__meta">
+                <div class="producst__price">
+                    100$
+                </div>
+                <div class="producst__stock">
+                    con lai:10 sp
+                </div>
+            </div>
+        </div>
+    </div>
+ </div>
+
+ <div class="pagination">
+    <span id="paginationPrew" class=" pagination__button" >Prew</span>
+    <span id="paginationNumber" class="pagination__Number">1</span>
+    <span id="paginationNext"  class=" pagination__button">Next</span>
+    
+ </div>
+
+
+ <script type="module" src="js/caterory.js"></script>
+ <script type="module" src="js/producst.js"></script>
+</body>
+</html>
